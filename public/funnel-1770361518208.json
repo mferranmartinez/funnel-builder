@@ -1,0 +1,267 @@
+{
+  "nodes": [
+    {
+      "id": "node-1",
+      "type": "funnelNode",
+      "position": {
+        "x": 449.99134190316215,
+        "y": 214.50101301923726
+      },
+      "data": {
+        "label": "Sales Page",
+        "type": "sales"
+      },
+      "width": 180,
+      "height": 114,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 449.99134190316215,
+        "y": 214.50101301923726
+      },
+      "dragging": true
+    },
+    {
+      "id": "node-2",
+      "type": "funnelNode",
+      "position": {
+        "x": 447.4047759778357,
+        "y": 399.49416017543587
+      },
+      "data": {
+        "label": "Order Page",
+        "type": "order"
+      },
+      "width": 180,
+      "height": 114,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 447.4047759778357,
+        "y": 399.49416017543587
+      },
+      "dragging": true
+    },
+    {
+      "id": "node-3",
+      "type": "funnelNode",
+      "position": {
+        "x": 332.18192621132346,
+        "y": 573.9450594052145
+      },
+      "data": {
+        "label": "Upsell 1",
+        "type": "upsell"
+      },
+      "width": 180,
+      "height": 114,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 332.18192621132346,
+        "y": 573.9450594052145
+      },
+      "dragging": true
+    },
+    {
+      "id": "node-4",
+      "type": "funnelNode",
+      "position": {
+        "x": 104.67964601186173,
+        "y": 739.4825586692186
+      },
+      "data": {
+        "label": "Downsell 1",
+        "type": "downsell"
+      },
+      "width": 180,
+      "height": 114,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 104.67964601186173,
+        "y": 739.4825586692186
+      },
+      "dragging": true
+    },
+    {
+      "id": "node-5",
+      "type": "funnelNode",
+      "position": {
+        "x": 451.88074760192035,
+        "y": 1054.2780998336889
+      },
+      "data": {
+        "label": "Thank You",
+        "type": "thankyou"
+      },
+      "width": 180,
+      "height": 114,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 451.88074760192035,
+        "y": 1054.2780998336889
+      },
+      "dragging": true
+    },
+    {
+      "id": "node-8",
+      "type": "funnelNode",
+      "position": {
+        "x": 220.58011894746159,
+        "y": 891.404521317508
+      },
+      "data": {
+        "label": "Downsell 2",
+        "type": "downsell"
+      },
+      "width": 180,
+      "height": 114,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 220.58011894746159,
+        "y": 891.404521317508
+      },
+      "dragging": true
+    },
+    {
+      "id": "node-9",
+      "type": "funnelNode",
+      "position": {
+        "x": 572.6018105506531,
+        "y": 572.9194216178142
+      },
+      "data": {
+        "label": "Upsell 2",
+        "type": "upsell"
+      },
+      "width": 180,
+      "height": 114,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 572.6018105506531,
+        "y": 572.9194216178142
+      },
+      "dragging": true
+    },
+    {
+      "id": "node-10",
+      "type": "funnelNode",
+      "position": {
+        "x": 676.3929634545605,
+        "y": 888.6290398832973
+      },
+      "data": {
+        "label": "Downsell 3",
+        "type": "downsell"
+      },
+      "width": 180,
+      "height": 114,
+      "selected": true,
+      "positionAbsolute": {
+        "x": 676.3929634545605,
+        "y": 888.6290398832973
+      },
+      "dragging": true
+    },
+    {
+      "id": "node-11",
+      "type": "funnelNode",
+      "position": {
+        "x": 777.1543369025815,
+        "y": 737.8395003427411
+      },
+      "data": {
+        "label": "Downsell 4",
+        "type": "downsell"
+      },
+      "width": 180,
+      "height": 114,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 777.1543369025815,
+        "y": 737.8395003427411
+      },
+      "dragging": true
+    }
+  ],
+  "edges": [
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "source": "node-1",
+      "sourceHandle": null,
+      "target": "node-2",
+      "targetHandle": null,
+      "id": "reactflow__edge-node-1-node-2"
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "source": "node-2",
+      "sourceHandle": null,
+      "target": "node-3",
+      "targetHandle": null,
+      "id": "reactflow__edge-node-2-node-3"
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "source": "node-3",
+      "sourceHandle": null,
+      "target": "node-5",
+      "targetHandle": null,
+      "id": "reactflow__edge-node-3-node-5"
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "source": "node-3",
+      "sourceHandle": null,
+      "target": "node-4",
+      "targetHandle": null,
+      "id": "reactflow__edge-node-3-node-4"
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "source": "node-3",
+      "sourceHandle": null,
+      "target": "node-8",
+      "targetHandle": null,
+      "id": "reactflow__edge-node-3-node-8"
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "source": "node-2",
+      "sourceHandle": null,
+      "target": "node-9",
+      "targetHandle": null,
+      "id": "reactflow__edge-node-2-node-9"
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "source": "node-9",
+      "sourceHandle": null,
+      "target": "node-5",
+      "targetHandle": null,
+      "id": "reactflow__edge-node-9-node-5"
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "source": "node-9",
+      "sourceHandle": null,
+      "target": "node-11",
+      "targetHandle": null,
+      "id": "reactflow__edge-node-9-node-11"
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "source": "node-9",
+      "sourceHandle": null,
+      "target": "node-10",
+      "targetHandle": null,
+      "id": "reactflow__edge-node-9-node-10"
+    }
+  ]
+}
